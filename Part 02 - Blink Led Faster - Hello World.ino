@@ -1,11 +1,11 @@
 /*
 
-This is my first program, which is awesome!
-Name: Daniel Andrade
+Program 002
 
 */
 
 int ledPin = 13;
+int dtime = 200;
 
 void setup(){
 
@@ -16,9 +16,9 @@ void setup(){
 void loop(){
 
 	digitalWrite(ledPin,HIGH);
-	delay(1000);
+	delay(dtime);
   
 	digitalWrite(ledPin,HIGH);
-	delay(1000);
+	delay(dtime);
   
 }
